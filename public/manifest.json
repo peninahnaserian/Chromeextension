@@ -1,0 +1,30 @@
+{"manifest_version": 2,
+
+  "name": "awesome_extension",
+  "description": "This is an extension built for practice ",
+  "version": "1.0",
+
+  "browser_action":{
+      "default_popup": "index.html",
+      "default_title": "Awesome extension"
+  },
+
+  
+  "icons": {
+    "16": "logo192.png",
+    "48": "logo192.png",
+    "128": "logo192.png"
+
+  },
+
+  "content_security_policy": "script-src 'self'  'sha256-wkEhk1Pm58HZQSzT/oPAcIeUYSsJpEEGo2v2M1aGgTs=';object-src 'self'",
+  "permissions": [
+    
+  ]
+}
+
+
+
+
+
+
